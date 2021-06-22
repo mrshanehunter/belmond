@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
 import { BgImage } from "gbimage-bridge"
