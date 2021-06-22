@@ -38,20 +38,28 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg {
   width: 100vw;
   height: 100vh;
 }
 
-.container {
-  padding: 0;
+.contentContainer {
+  min-width: 100vw;
+  height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
 .aboutUs {
+  width: 50%;
+  margin: 4rem auto;
   h3 {
     color: var(--olive);
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.15px;
     text-shadow: 0.15px 0.15px var(--black);
   }

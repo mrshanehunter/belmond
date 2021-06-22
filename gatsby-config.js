@@ -5,6 +5,8 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Belmond",
+    author: "thatguyfrommarketing.com",
+    siteUrl: "https://www.staging-belmond.netlify.app",
   },
   plugins: [
     {

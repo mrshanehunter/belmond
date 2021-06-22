@@ -24,8 +24,13 @@ width: 75vw;
 height: 25px;
 background: var(--white);
 opacity: 0.5;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 h3 {
   color: var(--blue);
+  margin-right: 6rem;
   :hover {
     color: var(--olive);
   }
@@ -41,7 +46,21 @@ export default function Header() {
     <StyledHeader>
       <Logo />
     <StyledNavBar>
+      <a href="/">
+        <h3>home</h3>
+      </a>
+      <a href="/about-us">
       <h3>about us</h3>
+      </a>
+      <a href="/">
+      <h3>brands</h3>
+      </a>
+      <a href="/">
+      <h3>products</h3>
+      </a>
+      <a href="/">
+      <h3>contact us</h3>
+      </a>
     </StyledNavBar>
     </StyledHeader>
   </>

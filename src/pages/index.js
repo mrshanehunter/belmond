@@ -29,8 +29,9 @@ const IndexPage = ({ ...props }) => {
   return (
     <>
     <BgImage image={pluginImage} className="bg">
+       <Header /> 
     <Container>
-      <Header />
+     
       
  
     </Container>
