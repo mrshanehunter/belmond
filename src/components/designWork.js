@@ -40,7 +40,7 @@ function Design({ design }) {
 }
 
 export default function Designs({ designs }) {
-  console.log("Designs:", designs)
+ 
   return (
     <>
       <StyledDesign>

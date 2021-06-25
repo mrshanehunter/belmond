@@ -14,6 +14,11 @@ const StyledPhilosophy = styled.div`
     letter-spacing: 0.25rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
   }
   
 

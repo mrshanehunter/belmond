@@ -6,7 +6,7 @@ import Designs from "../components/designWork"
 
 
 const DesignsPage = ({  data, ...props }) => {
-   console.log(data)
+   
    const designs = data.data.nodes
   
   return (
