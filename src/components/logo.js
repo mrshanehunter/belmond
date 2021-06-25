@@ -13,9 +13,9 @@ justify-content: center;
 
  const Logo = () => {
    const data = useStaticQuery(graphql`{
-     placeholderImage: file(relativePath: {eq: "FFMLOGO.png"}) {
+     placeholderImage: file(relativePath: {eq: "LogoImage.png"}) {
        childImageSharp {
-         gatsbyImageData(width: 400, layout: CONSTRAINED)
+         gatsbyImageData(width: 100, layout: CONSTRAINED)
        }
      }
    }

@@ -45,6 +45,10 @@ a {
 .bg {
   width: 100vw;
   height: 100vh;
+  filter: grayscale(100%);
+  :hover {
+    filter: grayscale(0%);
+  }
 }
 
 .contentContainer {
@@ -52,6 +56,7 @@ a {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background: transparent;
 }
 
 .aboutUs {

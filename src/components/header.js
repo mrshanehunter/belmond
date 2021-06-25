@@ -49,16 +49,19 @@ export default function Header() {
       <a href="/">
         <h3>home</h3>
       </a>
-      <a href="/about-us">
-      <h3>about us</h3>
+      <a href="/philosophy">
+      <h3>philosophy</h3>
       </a>
-      <a href="/">
-      <h3>brands</h3>
+      <a href="/designs">
+      <h3>designs</h3>
       </a>
-      <a href="/">
-      <h3>products</h3>
+      <a href="/services">
+      <h3>services</h3>
       </a>
-      <a href="/">
+      <a href="/in-the-media">
+      <h3>media</h3>
+      </a>
+      <a href="/contact-us">
       <h3>contact us</h3>
       </a>
     </StyledNavBar>

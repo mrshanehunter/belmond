@@ -12,6 +12,9 @@ import person from './person'
 import screening from './screening'
 import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
+import designs from './designs'
+import designProject from './designProject'
+import philosophys from './philosophys'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,7 +27,8 @@ export default createSchema({
     // in the studio.
     movie,
     person,
-    screening,
+    designs,
+    philosophys,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
@@ -32,5 +36,6 @@ export default createSchema({
     plotSummaries,
     castMember,
     crewMember,
+    designProject,
   ]),
 })

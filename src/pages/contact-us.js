@@ -6,11 +6,11 @@ import Container from "react-bootstrap/Container"
 import Header from "../components/header"
 
 
-const IndexPage = ({ ...props }) => {
-  const { backgroundImageMain } = useStaticQuery(
+const ContactPage = ({ ...props }) => {
+  const { backgroundImageSvcs } = useStaticQuery(
     graphql` 
          query {
-            backgroundImageMain: file(relativePath: {eq: "AD_bkgrd_1.jpg"}) {
+            backgroundImageSvcs: file(relativePath: {eq: "AD_bkgrd_Svcs.jpg"}) {
                childImageSharp {
                   gatsbyImageData(
                      width: 1440,
@@ -25,7 +25,7 @@ const IndexPage = ({ ...props }) => {
       `
   )
   
-  const pluginImage = getImage(backgroundImageMain)
+  const pluginImage = getImage(backgroundImageSvcs)
   return (
     <>
     <BgImage image={pluginImage} className="bg">
@@ -40,4 +40,5 @@ const IndexPage = ({ ...props }) => {
   )
 }
 
-export default IndexPage
+
+export default ContactPage
