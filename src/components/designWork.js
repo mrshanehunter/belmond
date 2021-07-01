@@ -2,10 +2,11 @@ import React from "react"
 import { GatsbyImage, getImage} from "gatsby-plugin-image"
 import styled from "styled-components"
 
+
 const StyledDesign = styled.div` 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 350px;
+  grid-template-rows: 1fr;
   grid-gap: 3rem;
   margin: 3rem auto;
   h4 {
@@ -20,6 +21,7 @@ const StyledDesign = styled.div`
     border-style: ridge;
     border-color:  var(--olive);
     border-width: 0.25rem;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
     :hover {
       filter: grayscale(0%);
     }
@@ -29,12 +31,13 @@ const StyledDesign = styled.div`
 
 function Design({ design }) {
   const image = getImage(design.image.asset)
+ 
 
   return (
     <div>
       <GatsbyImage image={image} alt={design.name} />
       <h4>{design.name}</h4>
-
+     
     </div>
   )
 }

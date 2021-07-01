@@ -28,6 +28,47 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'spaceDesigned',
+      title: 'Space Designed',
+      type: 'string',
+    },
+    {
+      name: 'suburb',
+      title: 'Suburb',
+      type: 'string',
+    },
+    {
+      name: 'budget',
+      title: 'Budget',
+      type: 'number',
+    },
+    {
+      name: 'compDate',
+      title: 'Completion Date',
+      type: 'string',
+    },
+    {
+      name: 'summary',
+      title: 'Summary of Project',
+      type: 'text',
+    },
+    {
+      name: 'imageA',
+      title: 'Image A',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'imageB',
+      title: 'Image B',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
   ],
   preview: {
     select: {title: 'name', media: 'image'},

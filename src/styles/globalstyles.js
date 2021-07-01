@@ -78,6 +78,27 @@ a {
   }
 }
 
+.flexCont {
+  width: 100%;
+}
+
+.philosophyDiv {
+  padding: 0.75rem;
+  p {
+    opacity: 0;
+  }
+}
+
+.philosophyDiv:hover {
+  background-color: var(--blue);
+  opacity: 0.9;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
+  p {
+    opacity: 1;
+  }
+}
+
 
 `
 
