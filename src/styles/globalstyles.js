@@ -102,7 +102,7 @@ a {
 
 .contactFormCard {
   width: 45%;
-  height: 35vh;
+  height: 17.5vh;
   opacity: 0.75;
   position: absolute;
   bottom: 5%;

@@ -63,12 +63,17 @@ const StyledStory = styled.div`
 const StyledMention = styled.div` 
   display: flex;
   flex-direction: row;
-
+  filter: grayscale(100%);
+  opacity: 0.5;
   .gatsby-image-wrapper {
     border-style: ridge;
     border-color:  var(--olive);
     border-width: 0.25rem;
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
+  }
+  :hover {
+    filter: grayscale(0%);
+    opacity: 1;
   }
 `
 
