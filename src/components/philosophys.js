@@ -14,6 +14,10 @@ const StyledPhilosophy = styled.div`
   display: flex;
   align-items: flex-end;
   
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  
   h2 {
     color: var(--olive);
     text-shadow: 0.175rem 0.175rem var(--black);
