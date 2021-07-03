@@ -100,6 +100,98 @@ a {
   }
 }
 
+.contactFormCard {
+  width: 45%;
+  height: 35vh;
+  opacity: 0.75;
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  h3 {
+    color: var(--olive);
+    font-size: 1.8rem;
+    padding: 1rem 0 0.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    text-shadow: 0.05rem 0.05rem var(--black);
+  }
+}
+
+.contactFormCard {
+  label {
+    width: 75%;
+    margin-left: 5%;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: var(--blue);
+    text-shadow: 0.05rem 0.05rem var(--white);
+  }
+  input {
+    width: 75%;
+    margin-left: 5%;
+  }
+  textarea {
+    width: 75%;
+    margin-left: 5%;
+  }
+}
+
+.formBtn {
+  text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    text-shadow: 0.05rem 0.05rem var(--black);
+    background: var(--olive);
+    margin-left: 5%;
+}
+
+.google-map {
+  width: 45%;
+  height: 35vh;
+  opacity: 0.75;
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  border-style: ridge;
+    border-color:  var(--olive);
+    border-width: 0.25rem;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
+  @media (max-width: 576px)  {
+    width: 80%;
+    margin: 1rem auto;
+    height: 40rem;
+  }
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  color: red;
+}
+
+.pin-icon {
+  font-size: 6rem;
+}
+
+.pin-text {
+  font-size: 1.3rem;
+  color: #070707; 
+}
+
+.thanks {
+  height: 100vh;
+  color: var(--olive);
+  a {
+    color: var(--blue);
+    :hover {
+      color: var(--olive);
+    }
+  }
+}
+
 
 `
 

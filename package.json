@@ -15,6 +15,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@iconify/icons-mdi": "^1.1.15",
+    "@iconify/react": "^1.1.4",
     "babel-plugin-styled-components": "^1.12.0",
     "bootstrap": "^5.0.1",
     "gatsby": "^3.6.2",
@@ -31,6 +33,7 @@
     "gatsby-source-sanity": "^7.0.7",
     "gatsby-transformer-sharp": "^3.7.1",
     "gbimage-bridge": "^0.1.4",
+    "google-map-react": "^2.1.10",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1",

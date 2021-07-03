@@ -4,7 +4,8 @@ import { getImage } from "gatsby-plugin-image"
 import { BgImage } from "gbimage-bridge"
 import Container from "react-bootstrap/Container"
 import Header from "../components/header"
-
+import Location from "../components/location"
+import ContactForm from "../components/contact-form"
 
 const ContactPage = ({ ...props }) => {
   const { backgroundImageSvcs } = useStaticQuery(
@@ -30,6 +31,8 @@ const ContactPage = ({ ...props }) => {
     <>
     <BgImage image={pluginImage} className="bg">
        <Header /> 
+       <ContactForm />
+       <Location />
     <Container>
      
       
